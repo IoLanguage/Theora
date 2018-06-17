@@ -1,0 +1,15 @@
+{
+  "name":         "Theora",
+  "version":      "0.1",
+  "description":  "Io binding for libtheora.",
+  "author":       "Chris Double",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Theora", "TheoraInfo", "TheoraComment", "TheoraSetupInfo", "TheoraDecodeContxt" ],
+  "dependencies": {
+    "libs":     ["theora", "theoradec"],
+    "headers":  ["theora/theora.h", "theora/theoradec.h"],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/Ogg.git"]
+  }
+}
